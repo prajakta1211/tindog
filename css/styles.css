@@ -1,0 +1,160 @@
+body{
+  font-family:'Montserrat', sans-serif;
+  text-align: center;
+}
+h1,h2,h4,h5,h6{
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.5;
+}
+p{
+  color: #8f8f8f;
+  font-family: sans-serif;
+  font-weight:600;
+}
+.heading1{
+  font-weight: 900;
+    font-size: 3.5rem;
+}
+.testimonial-text{
+  font-weight: 600;
+  font-size: 3.5rem;
+}
+.features1{
+  font-family:'Montserrat-bold', sans-serif;
+  color: black;
+  font-weight: 600;
+}
+#title{
+  background-color: #ff4c68;
+  color: white;
+  text-align:left;
+}
+#features{
+  padding: 100px 200px 0 200px;
+  background-color: white;
+  position:relative;
+  z-index: 1;
+}
+#testimonials{
+  background-color: #ef8172;
+  font-family:'Montserrat-bold', sans-serif;
+  color: white;
+}
+#press{
+  background-color: #ef8172;
+  padding: 10px 30px 40px;
+}
+#pricing{
+  padding: 100px 100px 0;
+}
+#cta{
+  background-color: #ff4c68;
+  padding: 150px 200px 50px 200px;
+}
+#footer{
+  padding: 3% 15% 3%;
+  position: relative;
+  top:50px;
+  background-color: #fff;
+}
+.footer-icons{
+  font-size: 1.5rem;
+}
+.fabicon{
+  padding: 5px;
+}
+.ctad{
+  font-family:'Montserrat-Black', sans-serif;
+  color: white;
+  font-weight: 900;
+  line-height: 1.5;
+  width:50%;
+  font-size: 2rem;
+  margin-left:23%;
+}
+.btns{
+  margin:25px 10px;
+  font-family: 'montserrat-light', sans-serif;
+}
+
+
+.col-1{
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.pricing-btn{
+  width:80%;
+  margin: auto;
+}
+.row-1{
+  padding: 100px 100px 0;
+}
+.press-logo{
+  width:15%;
+  padding:10px;
+}
+.cute-doggu{
+  border-radius: 100%;
+  padding: 20px;
+  width: 20%;
+}
+.testimonial-image{
+  border-radius: 100%;
+}
+.carousel-item{
+    padding: 7% 15% 5% 15%;
+}
+.container-fluid{
+  padding: 3% 15% 7%;
+}
+.navbar-brand{
+  font-size: 2rem;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bolder;
+}
+.img-fluid {
+  transform: rotate(25deg);
+  width:60%;
+  max-height: 43.75rem;
+  position: absolute;
+  right:30%;
+}
+
+
+.col-lg-4{
+  padding-bottom: 100px;
+  color: #8f8f8f;
+  font-family: sans-serif;
+  font-weight: bolder;
+}
+.icon{
+  color: #ef8172;
+  font-size: 3.5rem;
+  padding-bottom: 30px;
+}
+.icon:hover{
+  color:#e84a5f;
+}
+.navbar{
+  padding: 0 0 4.5rem;
+}
+.nav-item{
+  padding: 0 18px;
+}
+.nav-link{
+  font-size: 1.2rem;
+  font-family: 'montserrat-light', sans-serif;
+}
+.btn1{
+  margin: 5% 3% 5% 0;
+}
+
+@media (max-width:1005px) {
+  #title{
+    text-align: center;
+  }
+  .img-fluid{
+    transform: rotate(0);
+    position: static;
+  }
+}
